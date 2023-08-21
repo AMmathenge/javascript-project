@@ -21,6 +21,7 @@
         <label >
             <input type="checkbox" bind:group={selected} value={language}/>
         </label>
+        <button>{programmingLanguage}</button>
     {/each}
 </main>
 <style>
